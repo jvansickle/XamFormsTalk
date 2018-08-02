@@ -1,6 +1,7 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamFormsTalk.Page;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XamFormsTalk
@@ -11,7 +12,7 @@ namespace XamFormsTalk
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MainTabPage();
         }
 
         protected override void OnStart()

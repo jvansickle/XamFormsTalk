@@ -97,46 +97,46 @@
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon1024.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon120.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon167.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon180.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon29.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon40.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon58.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon60.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon76.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon80.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+    <ImageAsset Include="Assets.xcassets\Icon.appiconset\Icon87.png">
       <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
@@ -155,5 +155,8 @@
       <Project>{337BC72F-8125-4308-B65A-A673D1C51227}</Project>
       <Name>XamFormsTalk</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\Icon.appiconset\" />
   </ItemGroup>
 </Project>
