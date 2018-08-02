@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamFormsTalk"
+             xmlns:Element="clr-namespace:XamFormsTalk.Element"
+             x:Class="XamFormsTalk.Page.MainPage"
+             Title="Welcome"
+             Icon="Icon">
+    <StackLayout VerticalOptions="CenterAndExpand">
+        <!-- Place new controls here -->
+        <Label x:Name="WelcomeLabel"
+               Text="Welcome to Xamarin.Forms!"
+               HorizontalOptions="Center"/>
+
+        <Element:ToggleButton Toggled="OnItalicButtonToggled">
+            <VisualStateManager.VisualStateGroups>
+                <VisualStateGroup Name="ToggleStates">
+                    <VisualState Name="ToggledOff">
+                        <VisualState.Setters>
+                            <Setter Property="Text" Value="Italic Off" />
+                            <Setter Property="BackgroundColor" Value="#C0C0C0" />
+                            <Setter Property="TextColor" Value="Black" />
+                        </VisualState.Setters>
+                    </VisualState>
+
+                    <VisualState Name="ToggledOn">
+                        <VisualState.Setters>
+                            <Setter Property="Text" Value=" Italic On " />
+                            <Setter Property="BackgroundColor" Value="#404040" />
+                            <Setter Property="TextColor" Value="White" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateManager.VisualStateGroups>
+        </Element:ToggleButton>
+        
+    </StackLayout>
+</ContentPage>

@@ -9,5 +9,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Page\" />
+    <Folder Include="Element\" />
   </ItemGroup>
 </Project>
