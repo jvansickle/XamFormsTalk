@@ -1,6 +1,4 @@
-﻿using System;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace XamFormsTalk.Page
 {
@@ -9,6 +7,7 @@ namespace XamFormsTalk.Page
         public MainTabPage()
         {
             Children.Add(new MainPage());
+            Children.Add(new CameraPage());
         }
     }
 }

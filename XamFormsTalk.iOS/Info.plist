@@ -34,5 +34,9 @@
 	<string>XamFormsTalk</string>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/Icon.appiconset</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow Camera Access</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow Microphone Access</string>
 </dict>
 </plist>
