@@ -71,6 +71,8 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Control\CameraPreview.cs" />
+    <Compile Include="Renderer\CameraPreviewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -101,6 +103,8 @@
     <Folder Include="Resources\drawable-xhdpi\" />
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Control\" />
+    <Folder Include="Renderer\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamFormsTalk\XamFormsTalk.csproj">
