@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\Xamarin.Forms.3.1.0.697729\build\netstandard2.0\Xamarin.Forms.props" Condition="Exists('..\packages\Xamarin.Forms.3.1.0.697729\build\netstandard2.0\Xamarin.Forms.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -83,6 +82,8 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Assets.xcassets\Icon.appiconset\" />
+    <Folder Include="Renderer\" />
+    <Folder Include="Control\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
@@ -96,6 +97,8 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="Control\NSCameraPreview.cs" />
+    <Compile Include="Renderer\CameraPreviewRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamFormsTalk\XamFormsTalk.csproj">
